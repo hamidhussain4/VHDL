@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Mar 22 14:02:59 2018
+# Process ID: 7544
+# Current directory: B:/Embedded_Exercises/les_ADC/les_ADC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5152 B:\Embedded_Exercises\les_ADC\les_ADC\les_ADC.xpr
+# Log file: B:/Embedded_Exercises/les_ADC/les_ADC/vivado.log
+# Journal file: B:/Embedded_Exercises/les_ADC/les_ADC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project B:/Embedded_Exercises/les_ADC/les_ADC/les_ADC.xpr
+update_compile_order -fileset sources_1
+open_bd_design {B:/Embedded_Exercises/les_ADC/les_ADC/les_ADC.srcs/sources_1/bd/BLOKKER/BLOKKER.bd}
+ipx::edit_ip_in_project -upgrade true -name myip_PWM_v1_0_project -directory B:/Embedded_Exercises/les_ADC/les_ADC/les_ADC.tmp/myip_PWM_v1_0_project b:/Embedded_Exercises/les_ADC/les_ADC/ip_repo/myip_PWM_1.0/component.xml
+update_compile_order -fileset sources_1
+close_project
